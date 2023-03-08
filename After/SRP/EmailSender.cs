@@ -10,7 +10,7 @@ namespace SRP
     {
         public void SendByEmail(string addressee, string subject, string body)
         {
-            Console.WriteLine("Se envió email a " + addressee + " mensual, con asunto " + subject + " y cuerpo " + body);
+            Console.WriteLine("Se envió email a " + addressee + ", con asunto " + subject + " y cuerpo " + body);
         }
     }
 }
