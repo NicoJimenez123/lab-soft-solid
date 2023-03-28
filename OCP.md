@@ -2,7 +2,7 @@
 
 # Open Close Principle
 
-Supongamos que tenemos una clase llamada `Employe` que es responsable de calcular el sueldo de cada empleado de la organización. La clase se construye teniendo en cuenta que a todos los empleados de la organización se le decide dar un bono fijo mensual que representa el 20% de su sueldo.
+Supongamos que tenemos una clase llamada `Employee` que es responsable de calcular el sueldo de cada empleado de la organización. La clase se construye teniendo en cuenta que a todos los empleados de la organización se le decide dar un bono fijo mensual que representa el 20% de su sueldo.
 
 ```csharp
 public class Employee
