@@ -29,7 +29,7 @@ Report report = new Report();
 report.SendByEmail("test@test.com", "Reporte mensual", report.GenerateMonthlyReport());
 ```
 
-Luego, en otro caso de uso, tenemos que enviar un saludo de cumpleaños a los empleados de la organización, y para ello decidimos reutilizar el método `SendByEmail()`. En cuanto lo implementamos, notamos que deberíamos llevarnos la clase `Report` completa acareando mucha funcionalidad que no vamos a necesitar.
+Luego, en otro caso de uso, tenemos que enviar un saludo de cumpleaños a los empleados de la organización, y para ello decidimos reutilizar el método `SendByEmail()`. En cuanto lo implementamos, notamos que deberíamos llevarnos la clase `Report` completa acarreando mucha funcionalidad que no vamos a necesitar.
 
 Entonces, nos damos cuenta que la clase `Report` tiene dos responsabilidades diferentes: generar informes y enviar correos electrónicos. Esto va en contra del principio de responsabilidad única de SOLID, ya que una clase debería tener una sola responsabilidad.
 
