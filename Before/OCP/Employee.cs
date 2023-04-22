@@ -13,7 +13,7 @@ namespace OCP
 
         public double CalculateSalary()
         {
-            return (this.Type == 'F') ? this.CalculateFullTimeSalary() : this.CalculatePartTimeSalary();
+            return this.Salary;
         }
 
         private double CalculateFullTimeSalary()
