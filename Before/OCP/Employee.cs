@@ -11,7 +11,7 @@ namespace OCP
         public string Name { get; set; }
         public double Salary { get; set; }
 
-        public double CalculateSalary()
+        public virtual double CalculateSalary()
         {
             return this.Salary;
         }
