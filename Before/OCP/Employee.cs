@@ -15,11 +15,6 @@ namespace OCP
         {
             return this.Salary;
         }
-
-        private double CalculateFullTimeSalary()
-        {
-            return Salary * 1.2;
-        }
         private double CalculatePartTimeSalary()
         {
             return Salary * 1.1;
