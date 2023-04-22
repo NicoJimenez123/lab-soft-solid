@@ -7,7 +7,8 @@ namespace SRP
         static void Main(string[] args)
         {
             Report report = new Report();
-            report.SendByEmail("test@test.com", "Reporte mensual", report.GenerateMonthlyReport());
+            EmailSender email = new EmailSender();
+            email.SendByEmail("test@test.com", "Reporte mensual", report.GenerateMonthlyReport());
         }
     }
 }
