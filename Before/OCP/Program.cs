@@ -6,13 +6,11 @@ namespace OCP
     {
         static void Main(string[] args)
         {
-            Employee fulltime = new Employee();
+            EmployeeFullTime fulltime = new EmployeeFullTime();
             fulltime.Salary = 100;
-            fulltime.Type = 'F';
 
-            Employee parttime= new Employee();
+            EmployeePartTime parttime= new EmployeePartTime();
             parttime.Salary = 100;
-            parttime.Type = 'P';
 
             Console.WriteLine(fulltime.CalculateSalary());
             Console.WriteLine(parttime.CalculateSalary());
