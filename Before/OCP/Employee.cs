@@ -10,7 +10,6 @@ namespace OCP
     {
         public string Name { get; set; }
         public double Salary { get; set; }
-        public char Type { get; set; }
 
         public double CalculateSalary()
         {
