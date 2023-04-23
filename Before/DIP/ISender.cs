@@ -8,6 +8,6 @@ namespace DIP
 {
     public interface ISender
     {
-        void Send();
+        void Send(string addressee, string subject, string body);
     }
 }
