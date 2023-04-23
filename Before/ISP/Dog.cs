@@ -16,9 +16,5 @@ namespace ISP
         {
             Console.WriteLine("Soy un perro y estoy corriendo");
         }
-        public void Swim()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
