@@ -9,7 +9,5 @@ namespace ISP
     public interface IAnimal
     {
         public void Eat();
-        public void Run();
-        public void Swim();
     }
 }
