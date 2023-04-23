@@ -13,12 +13,16 @@ namespace DIP
         private String _products;
         private ISender sender;
 
-        public void CreateOrder(String clientName, String clientEmail, String products, ISender sender)
+        public Order(ISender sender)
+        {
+            this.sender = sender;
+        }
+
+        public void CreateOrder(String clientName, String clientEmail, String products)
         {
             this._clientName = clientName;
             this._clientEmail = clientEmail;
             this._products = products;
-            this.sender = sender;
             //Realiza el proceso para dar de alta la Orden ...
 
             this.sendOrder();
