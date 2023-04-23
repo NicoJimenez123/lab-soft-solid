@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace ISP
 {
-    public class Fish : Animal
+    public class Fish : IAnimal, INadador
     {
         public void Eat()
         {
             Console.WriteLine("Estoy comiendo");
-        }
-        public void Run()
-        {
-            throw new NotImplementedException();
         }
         public void Swim()
         {
