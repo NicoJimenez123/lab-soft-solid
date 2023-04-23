@@ -8,7 +8,9 @@ namespace ISP
         {
             Dog dog = new Dog();
             dog.Eat();
-            dog.Swim();
+
+            Fish fish = new Fish();
+            fish.Swim();
         }
     }
 }
