@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ISP
 {
-    public class Dog : Animal
+    public class Dog : IAnimal, ICorredor
     {
         public void Eat()
         {

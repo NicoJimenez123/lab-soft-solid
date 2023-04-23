@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ISP
 {
-    public class Cat : Animal
+    public class Cat : IAnimal, ICorredor
     {
         public void Eat()
         {
@@ -15,10 +15,6 @@ namespace ISP
         public void Run()
         {
             Console.WriteLine("Soy un perro y estoy corriendo");
-        }
-        public void Swim()
-        {
-            throw new NotImplementedException();
         }
     }
 }
